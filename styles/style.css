@@ -28,7 +28,7 @@ main{
 .logo-name{
     display: flex;
     align-items: center;
-    padding-left: 530px;
+    margin-left: 27.5%;
 }
 
 .logo-name img{
@@ -45,7 +45,7 @@ main{
 .nav-bar{
     display: flex;
     align-items: center;
-    padding-right: 530px;
+    margin-right: 27.6%;
 }
 
 .nav-menu{
@@ -114,4 +114,11 @@ main{
     border: 1px solid #D1D1D1;
     width: 807px;
     margin-top: 30px;
+}
+
+@media only screen and (max-width: 688px){
+    .navigation-bar{
+        width: 100%;
+        align-items: center;
+    }
 }
