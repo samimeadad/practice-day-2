@@ -1,0 +1,65 @@
+/* import poppins font from google */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* base style or utility section for the entire web page */
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color:#F3F1FF;
+    font-family: 'Poppins', sans-serif;;
+}
+
+/* header section styles */
+
+/* style for the main navigation bar */
+.navigation-bar{
+    display: flex;
+    width: 100%;
+    height: 94px;
+    background-color: #562EFF;
+    justify-content: space-between;
+}
+
+.logo-name{
+    display: flex;
+    align-items: center;
+    padding-left: 285px;
+}
+
+.logo-name img{
+    width: 40px;
+    height: 51px;
+    margin-right: 16px;
+}
+
+.logo-name p{
+    font-size: 24px;
+    color:white;
+}
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+    padding-right: 289px;
+}
+
+.small-nav{
+    margin-right: 36px;
+}
+
+.small-nav ul{
+    list-style: none;
+    display: flex;
+}
+
+.small-nav li a{
+    color: white;
+    text-align: center;
+    padding: 36px;
+    text-decoration: none;
+}
+
+.small-nav img{
+    width: 51px;
+    height: 51px;
+}
